@@ -4,7 +4,7 @@ Usage:
 ```
 Usage: target/release/mandelbrot FILE SIZE UPPERLEFT LOWERRIGHT
 
-# UPPERLEFT and LOWERRIGHT are points in complex plain.
+# UPPERLEFT and LOWERRIGHT are points in the complex plane.
 ```
 
 Example:
