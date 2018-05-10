@@ -1,4 +1,4 @@
-Script for generating Mandelbrot set.
+Script for generating GIF for given coordinates on the Mandelbrot set.
 
 Usage:
 ```
