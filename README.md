@@ -2,22 +2,13 @@ Script for generating Mandelbrot set.
 
 Usage:
 ```
-Usage: target/release/mandelbrot FILE SIZE UPPERLEFT LOWERRIGHT
-
-# UPPERLEFT and LOWERRIGHT are points in the complex plane.
+Usage: target/release/mandelbrot FILE_NAME POINT_COORDINATES
 ```
 
 Example:
 
 ```
-target/release/mandelbrot samples/mandel__0.png 1000x750 -2.0,2.0 2.0,-2.0
+target/release/mandelbrot mendel -0.77568377,0.13646737
 ```
 
-![Mandelbrot](https://github.com/matDobek/mandelbrot/blob/master/samples/mandel__0.png "Mandelbrot")
-
-
-```
-target/release/mandelbrot mandel.png 1000x750 -1.20,0.35 -1.0,0.20
-```
-
-![Mandelbrot](https://github.com/matDobek/mandelbrot/blob/master/samples/mandel__1.png "Mandelbrot")
+![Mandelbrot](https://github.com/matDobek/mandelbrot/blob/master/samples/mandelbrot.gif "Mandelbrot")
