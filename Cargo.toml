@@ -3,7 +3,11 @@ name = "mandelbrot"
 version = "0.1.0"
 authors = ["Mateusz Dobek <mat.dobek@gmail.com>"]
 
+[features]
+default = []
+debug-stderr = []
+
 [dependencies]
 num = "0.1.27"
-image = "0.13.0"
+gif = "0.10.0"
 crossbeam = "0.2.8"
